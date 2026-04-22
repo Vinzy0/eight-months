@@ -1,0 +1,411 @@
+{
+  "generatedAt": "2026-04-08",
+  "sourceCounts": {
+    "messages": 74298,
+    "words": 287717,
+    "dateRange": { "start": "2025-07-06", "end": "2026-04-05" },
+    "span": "9 months, 0 days"
+  },
+
+  "insideJokes": [
+    {
+      "phrase": "Vincent Ian Pedres / Princess Genrose N. Padernal",
+      "probableMeaning": "The full-name reveal bit. On their first real chat day, Vince dug up Princess's full legal name and kept repeating it. She retaliated with his. Nine months later they still use it as an affectionate curse whenever either one is being annoying — it's their oldest running gag and predates any romance.",
+      "firstSeen": "2025-07-08",
+      "frequency": "~34 occurrences (28 princess_genrose + 6 vincent_ian_pedres)"
+    },
+    {
+      "phrase": "Mallows",
+      "probableMeaning": "Vince's cat. What started as Vince saying his cat 'naunahan ka pa ni mallows' became a recurring character in their chats — Princess greets Mallows directly ('HI MALLOWS', 'i love u mallows'), Vince reports on Mallows's meow-attacks in the morning ('si mallows meow ng meow sa mukha ko'). Mallows is basically their long-distance pet.",
+      "firstSeen": "2025-08-11",
+      "frequency": "15+ mentions"
+    },
+    {
+      "phrase": "Strwbrryui / strawberry",
+      "probableMeaning": "Princess's original Discord/game handle — literally her first message to him was 'Strwbrryui\\nstrwbrryui22'. Vince teases her about it ('bro is strwbrryuiii', 'i mean ur ign is literally strwbrryui'). Strawberry became a running aesthetic — her likes, her reacts, her whole origin story is 🍓.",
+      "firstSeen": "2025-07-06",
+      "frequency": "36 strawberry references, first message in the entire chat"
+    },
+    {
+      "phrase": "mwa",
+      "probableMeaning": "Princess's signature sign-off kiss. Not 'muah,' not 'xx' — specifically 'mwa,' usually tacked onto the end of a message or sent alone. It's how she closes soft moments. Vince doesn't use it; it's uniquely hers.",
+      "firstSeen": "2025-08-09",
+      "frequency": "65 occurrences"
+    },
+    {
+      "phrase": "baby ko / babyyy",
+      "probableMeaning": "Their pet-name system that exploded on Aug 11 and never stopped. 'baby ko' is Vince's tender possessive mode; 'babyyy' (with a stretched y) is Princess's shout-across-the-room mode. Over 1,400 combined occurrences. The volume alone tells the story.",
+      "firstSeen": "2025-08-11",
+      "frequency": "77 (baby ko) + 1,416 (babyyy variants) = 1,493"
+    },
+    {
+      "phrase": "tara laro / tara call",
+      "probableMeaning": "Their default love language bat-signal. Before 'i love you' existed, there was 'tara laro' (let's play). Valorant was literally how they met, and 'tara laro' is still how one of them says 'I need you near me' without saying it.",
+      "firstSeen": "2025-07-10",
+      "frequency": "26 (tara laro) + 11 (call natin) + 125 (valorant mentions)"
+    },
+    {
+      "phrase": "Hi po Tito / Hi po Tita",
+      "probableMeaning": "Vince's formal permission letters to Princess's parents — written in full po-opo Filipino respect mode, sent on significant dates (asking to take her out, meeting milestones). Princess collects them like receipts. This isn't a joke so much as a recurring ritual that reveals how seriously Vince takes the whole thing.",
+      "firstSeen": "2025-10-12 (Antonio / Lolo's bday)",
+      "frequency": "multiple — across Oct, Feb, and beyond"
+    },
+    {
+      "phrase": "forehead kiss",
+      "probableMeaning": "Their most-cited physical gesture — more than lips, more than anything else. Princess anchors to it ('Wala akong goodbye forehead kiss', 'thank u for the forehead kiss baby'), Vince protects it ('i was scared na umiwas ka sa forehead kiss ko'). In a chat full of spicy content, the forehead kiss is the one that makes both of them soft.",
+      "firstSeen": "2025-12-03",
+      "frequency": "4 explicit mentions (the weight is the context, not the count)"
+    }
+  ],
+
+  "chapters": [
+    {
+      "name": "Valorant Strangers",
+      "dateRange": "2025-07-06 → 2025-08-05",
+      "summary": "They met because Princess needed a fifth for Valo and Vince happened to be online. Low-stakes Discord banter, IG reels spam, and the aggressive discovery that both of them are chaotic goblins who type in all caps. No one is in love yet, but neither can stop answering.",
+      "dominantTone": "curious, unserious, already a little obsessed",
+      "pullQuote": "princess genrose padernal"
+    },
+    {
+      "name": "The Crash",
+      "dateRange": "2025-08-06 → 2025-08-30",
+      "summary": "Something broke open on Aug 6 — a 1,424-message day of real questions about 'would u wait for a label' and 'first kiss.' From there it was freefall: first WhatsApp move, first date, first 'i love u' alternative search ('whats an alternative na pwede ko sabihin'), a 1,732-msg peak on Aug 11, and on Aug 30 Vince finally just says 'I LOVE YOU MOREE' and Princess answers in a minute.",
+      "dominantTone": "overwhelmed, honest, freefall",
+      "pullQuote": "btw, how do u feel about me saying i love u?"
+    },
+    {
+      "name": "Without a Label",
+      "dateRange": "2025-08-31 → 2025-11-30",
+      "summary": "On September 1, Vince writes the longest message he will ever send her — 405 words ending in 'i want you to be my future wife.' And yet they still don't have a label. This chapter is the slow-burn work of turning that declaration into something liveable: Princess reckoning with her avoidant patterns, Vince naming his jealousy out loud, both of them calling it by its clinical names and trying anyway. The fights are real and the repairs are realer.",
+      "dominantTone": "earnest, therapeutic, occasionally raw",
+      "pullQuote": "i love u for really forcing me to open up"
+    },
+    {
+      "name": "Something Like a Home",
+      "dateRange": "2025-12-01 → 2026-02-14",
+      "summary": "The chaos calms into rhythm. Forehead kisses on jeeps, 'i love you my babytyy' at 10am, an 857-msg Christmas day, 'forever hello?' on Jan 2. The pet names have settled, the podcast jokes are inside-baseball now, and the conversations swing freely between 'baby i LOVE your podcast' and 'can you take a selfie with my dick.' This is what safe sounds like for them.",
+      "dominantTone": "settled, filthy-tender, domestic",
+      "pullQuote": "forever hello?"
+    },
+    {
+      "name": "The Quiet",
+      "dateRange": "2026-02-15 → 2026-04-05",
+      "summary": "The label question comes back: 'we can't keep like this forever.' Then March 20–28 happens — seven days where volume drops from the usual 300+ to under 60 per day. Not a breakup, but the closest thing to one in the whole arc. On Mar 29 it snaps back (267), then 407, then 430 by April 1. They end the nine months exactly where the gift was about to land: Princess yelling 'miss uuuu', Vince writing 'im not sleeping on u', both of them still here.",
+      "dominantTone": "tested, quiet, returning",
+      "pullQuote": "we can't keep like this forever"
+    }
+  ],
+
+  "communicationPatterns": {
+    "communicationBalance": {
+      "summary": "Princess drives initiation; Vince drives depth. She sends 56.3% of total messages (41,786 vs 32,512) but her avg message is shorter (4.3 words vs Vince's 3.7 — though when Vince does type long, he types VERY long, owning the 405-word record and most messages above 200 words). She is the one who pings first, double-texts, follows up, sends the reel. He is the one who, when she finally pushes him, writes the letter.",
+      "princessShareOfMessages": "56.3%",
+      "vinceShareOfMessages": "43.7%",
+      "interpretation": "Effort is not equal on a message-count basis, but it's not unequal in what matters — she carries the bandwidth, he carries the weight."
+    },
+    "conflictPattern": {
+      "summary": "Fights almost always start with jealousy (Vince) or overthinking (Princess) and escalate through a specific loop: Princess notices Vince has gone quiet → she asks once → he says 'medyo insecure lang ako' → they name the real thing → one of them types a long apology paragraph → the other forgives within minutes. Repair is their strongest skill. They have never — in 74,298 messages — gone more than about 24 hours without finding each other again.",
+      "escalationStyle": "quiet withdrawal (vince) meets anxious double-texting (princess)",
+      "repairStyle": "long paragraph-apology from whoever felt most responsible, followed by 'i love u' within the same hour",
+      "exemplar": "'pero most times na nababadtrip ako sayo, its because of jealousy' — Vince naming the pattern out loud on Aug 23, the first of many times"
+    },
+    "affectionConsistency": {
+      "summary": "Spikey, not steady — but the spikes are high. The daily volume ranges from 17 messages (Mar 24) to 1,732 (Aug 11). The baseline 2025-08 through 2026-02 sits between 200–600 msgs/day, with regular surges on weekends, Christmas (857 on Dec 27), and any day one of them is mad. Affection follows the same curve: 'i love you' said 195 times across the span, concentrated in Aug/Sep and rebuilt in every reconciliation.",
+      "monthlyApproximation": {
+        "2025-07": 2246,
+        "2025-08": 15744,
+        "2025-08_dailyPeak": 1732,
+        "2025-09": 11086,
+        "2025-10": 7184,
+        "2025-11": 6693,
+        "2025-12": 6132,
+        "2026-01": 6884,
+        "2026-02": 7375,
+        "2026-03": 6070,
+        "2026-04": 1331,
+        "note": "peak month was August (the crash). The lowest weekly window was Mar 20–28 (avg <30/day) — the closest thing to a silence in the whole dataset."
+      }
+    },
+    "emotionalLoad": {
+      "summary": "Princess initiates most hard conversations ('i feel like i let my lust take over', 'u have abandonment issues', 'we can't keep like this forever') but Vince carries most long-form emotional writing once a topic is open. She names the thing; he explains the thing. She holds space for his insecurity about looks and jealousy; he holds space for her family stress and academic anxiety. It's balanced in kind, asymmetric in form.",
+      "whoVents": "Princess vents about family + school more often; Vince vents about jealousy + self-image",
+      "whoHoldsSpace": "both, in different arenas — she takes his insecurity, he takes her overthinking",
+      "balance": "functionally equal"
+    },
+    "attachmentSignals": {
+      "summary": "Classic avoidant-meets-anxious, except they both know it and say it out loud. Princess self-identified as avoidant on Aug 2 ('#avoidantattachment'), told Vince on Aug 9 ('and i have avoidant tendencies'), and accused him of abandonment issues in the same breath. Vince double-texts, reassurance-seeks, writes 'pls dont overthink' 16+ times. Princess goes quiet, disappears for 4-hour stretches, then comes back with a paragraph apology. The March 20–28 dip is the clearest avoidant pullback in the dataset.",
+      "princessPattern": "avoidant-leaning, with high self-awareness; pulls back when overwhelmed, comes back with long written apologies",
+      "vincePattern": "anxious-leaning (especially around jealousy), with insecurity about being left; stabilizes through verbal declaration",
+      "signalsDetected": {
+        "doubleTexting": "both — Princess 3–6 msg bursts, Vince 2–3 msg clarifications",
+        "reassuranceSeeking": "'promise?' appears 50+ times from Vince specifically",
+        "silenceEpisodes": "longest sustained low was 2026-03-20 to 2026-03-28 (9 days, <60 msgs/day avg)"
+      }
+    }
+  },
+
+  "individualProfiles": {
+    "vince": {
+      "personalityTraits": [
+        "introvert who writes like an extrovert when it matters",
+        "slow to open but extravagantly open once opened",
+        "self-critical about looks, jealousy, and being 'enough'",
+        "playfully dominant in banter ('im taking the dog'), genuinely submissive in affection",
+        "plans the important things (dates, letters, gym routine) but forgets to post the keyboard pic",
+        "avoidant in the old days, learning anxious-repair in real time",
+        "the kind of guy who types 'sorry na avoidant kase 😜' two weeks before he's actually wrestling with it"
+      ],
+      "theyCareAbout": [
+        "Mallows (the cat)",
+        "looking pogi in photos (conscious about his gym progress)",
+        "being 'enough' for Princess specifically",
+        "his jealousy not becoming a problem for her",
+        "courting her 'properly' — the word 'courting' shows up in his own voice",
+        "her parents' approval ('Hi po Tito/Tita' letters)",
+        "Valorant rank, kind of, but he'll abandon a ranked game for her"
+      ],
+      "howTheyLove": "Through long-form words. When he has something real to say, he stops joking and writes a paragraph. His love shows up in specificity — 'i love u for really forcing me to open up,' 'i love when u try to understand me.' He doesn't do generic; when he says it, he names exactly what.",
+      "howTheyFight": "Goes quiet first. Then names it. 'medyo insecure lang ako don' is his stock opening line — he'd rather diagnose himself than escalate. When he's wrong he says it fast and in all caps ('SORRY NA 😭'). He almost never stonewalls for long because the anxiety of leaving her overthinking hurts him more than the pride of holding a grudge.",
+      "howTheyHumor": "Dry, self-deprecating, slightly degenerate. Loves a well-timed emoji ('😜', '😁'), loves reel-bombing her IG with cursed cat memes, loves catching her in minor crimes and typing 'YOU DUMBASS' with zero malice. His comedy is 'I already love you and I'm using it as leverage to bully you.'",
+      "communicationStyle": "Bursty and short by default (avg 3.7 words). Types in short fragments when casual. Switches to long-form exclusively when stakes are real — the 405-word 'future wife' message on Sep 1 is his extreme, but he drops 100–200 word paragraphs semi-regularly during important talks.",
+      "blindspots": "Believes his jealousy is a bug he can fix alone. It's not — it's a pattern that shows up every time Princess talks about Aaron, Heart, or any guy's name, and he keeps 'working on it' privately when what would actually help is naming it in the moment. Also: he thinks he's not doing enough, when the evidence shows he's overdoing a lot (gym for her, letters, planning). He doesn't see his own effort.",
+      "pullQuotes": [
+        "i love u for really forcing me to open up",
+        "i want you to be my future wife and i will do everything i can to make that happen",
+        "but i dont wanna leave u on delivered or to let u overthink"
+      ]
+    },
+    "princess": {
+      "personalityTraits": [
+        "loud-typed, soft-hearted, extremely online",
+        "the one who initiates — first call, first label questions, first 'i need to talk to u rn'",
+        "avoidant by wiring, working against it on purpose",
+        "fluent in therapy-speak (she's a psych student and it shows — 'abandonment issues', 'conditional positive regard')",
+        "a professional overthinker who asks Claude for help with her RRL",
+        "unhinged in caps, articulate in lowercase, tender in 'mwa'",
+        "people-pleaser in public, unfiltered in private"
+      ],
+      "theyCareAbout": [
+        "her family (both loving and stressed-out about them)",
+        "being judged for what she posts, wears, or plays",
+        "her thesis / RRL / academic performance",
+        "being the one who initiates",
+        "Vince's self-image (she corrects him every time he calls himself ugly)",
+        "the label question — persistently, even when she doesn't name it",
+        "the cat, Mallows, emotionally"
+      ],
+      "howTheyLove": "Through relentless presence. She does not leave gaps. If Vince doesn't respond in 20 minutes she sends five more messages until he does. Her love language is 'I refuse to let this conversation die,' and in a relationship with an avoidant-past partner that refusal is the whole reason they made it this far.",
+      "howTheyFight": "Opens with CAPS LOCK, closes with a long paragraph apology she meant every word of. Rarely stonewalls; she'd rather spam-text through the hurt than hold silence. Her most-used repair move is the long honest letter (see her Nov 21 apology: 'I know you can't trust me that easily and still have some abandonment issues and I totally understand that').",
+      "howTheyHumor": "Chaotic-maximalist. Unhinged cap-lock bursts, a bottomless tolerance for bit-escalation ('pwede na magkapusa HHAHAHAHAHAHAHAHHAAHAH'), aggressively affectionate roasts ('ang pangit ni vincent ian pedres'). She's the person who will type an entire joke at 3am about Vince's bowling arm and then immediately say 'fk u' when he calls her weak.",
+      "communicationStyle": "High-frequency, shorter per-message (avg 4.3 words), but arrives in bursts. She is the reason the peak day is 1,732 messages. She types the way she talks — fast, unedited, a little frantic, entirely alive.",
+      "blindspots": "She apologizes first even when she shouldn't. In at least three logged fights she took the blame on herself for things they both did — 'I know I did some things to make you even more upset' — and Vince let her, not cruelly, but because her fast-apology lets him off the hook from doing his own. Also: she treats the 'no label' thing as a thing she can't bring up, when the data says every time she does bring it up, the relationship moves forward.",
+      "pullQuotes": [
+        "ako nagbibigay ng label eh 🙄",
+        "i trust you too",
+        "I'm really sorry for today that I ended up ruining your mood. I know you were tired and I did some things to make you even more upset."
+      ]
+    }
+  },
+
+  "loveLanguages": {
+    "vincePrimary": {
+      "language": "Words of Affirmation",
+      "evidence": "The 405-word 'future wife' declaration is the clearest possible example — but the pattern repeats in smaller forms every week. He loves by naming specifics: 'i love u for just being u, i love when u try to understand me, i love when u try to get to know me, i love when ur interested in me.'"
+    },
+    "vinceSecondary": {
+      "language": "Acts of Service",
+      "evidence": "He goes to the gym for her ('ur the reason why i go to the gym'), writes formal letters to her parents, learns 'how to properly court someone' on purpose. He shows up as a project."
+    },
+    "princessPrimary": {
+      "language": "Quality Time",
+      "evidence": "'tara laro' / 'tara call' / 'can we play when ur awake' / 'sana mapost keyboard' — her whole affection rhythm is built around being in the same voice channel as him. She will stay on a call at 4am while he sleeps just to hear him breathe."
+    },
+    "princessSecondary": {
+      "language": "Physical Touch",
+      "evidence": "The forehead kiss mentions carry more weight than any other physical reference in the whole chat. 'Wala akong goodbye forehead kiss.' 'thank u for the forehead kiss baby.' She also brings up hugging and cuddling more often than he does."
+    },
+    "compatibilityRead": "They are beautifully, dangerously aligned. Both of his give-languages (words + acts) land hard for her, and both of her give-languages (time + touch) are exactly what he's terrified of not receiving. The only place they miss each other is timing: she wants time NOW, he writes words LATER. When they're in person it's perfect. When they're not, her need for live presence clashes with his need to retreat and draft. That's the whole relationship, basically — finding a rhythm where the wait feels earned."
+  },
+
+  "greenFlags": [
+    {
+      "pattern": "Clinical self-awareness of their own patterns",
+      "description": "Both of them know the clinical names for their wiring and say them out loud — 'avoidant attachment,' 'abandonment issues,' 'i get jealous because i dont want to lose u.' Most couples learn this language in therapy years in. These two brought it to month one.",
+      "evidence": "'pero most times na nababadtrip ako sayo, its because of jealousy. di ako nababadtrip sayo often, but when i do its about jealousy' — Vince, 2025-08-23"
+    },
+    {
+      "pattern": "Fast repair after conflict",
+      "description": "The dataset does not contain a single fight that lasted longer than about 24 hours. Every escalation is followed, same day or next, by either Vince's 'medyo insecure lang ako' or Princess's long apology paragraph, followed by 'i love u.' The fights are real but the recovery time is elite.",
+      "evidence": "'i love u for really forcing me to open up' / 'I love u too for telling me everything' — Vince & Princess back-to-back, 2025-09-24, one minute apart"
+    },
+    {
+      "pattern": "Specific, non-generic affection",
+      "description": "Neither of them says 'i love you' as filler. Vince always attaches a because ('i love u for just being u, i love when u try to understand me'). Princess ties it to moments ('im sorry i love you', 'okay thank u baby i love u'). The love is always pointing at something real.",
+      "evidence": "'i love u for just being u, i love when u try to understand me, i love when u try to get to know me, i love when ur interested in me.' — Vince, 2025-09-07"
+    },
+    {
+      "pattern": "Protective language even during friction",
+      "description": "Mid-argument, Vince's instinct is to protect Princess from the consequence of the argument itself. He doesn't want her to overthink, he doesn't want her on delivered, he apologizes for making her overthink — even when the overthinking wasn't his doing. That's a green flag in capital letters.",
+      "evidence": "'but i dont wanna leave u on delivered or to let u overthink' — Vince, 2025-08-23"
+    },
+    {
+      "pattern": "Shared humor as a base language",
+      "description": "The same emoji (😭) tops both of their top-5 lists. Both use CAPS LOCK the same way. Both escalate bits past the point of sanity ('magaasawa na ko' / 'unless, SA IBA KA MAG AASAWA?'). Shared humor isn't a small thing — it's the difference between a hard day being bonding and being isolating. They laugh at the same things.",
+      "evidence": "'ang pangit ni vincent ian pedres' → 8 months later, still the joke"
+    },
+    {
+      "pattern": "Princess refuses to let silence win",
+      "description": "Every time Vince retreats, Princess sends the next message. Every time. In an avoidant-leaning person this is the opposite of instinct — she's overriding her own wiring to keep them in contact. That choice is visible in the data (she sends 56.3% of messages) and it's the whole reason the relationship survived the March dip.",
+      "evidence": "'babyyyyyy / wake up pls' — Princess, 2026-04-05, 2:37am, after a whole night of one-sided messaging"
+    },
+    {
+      "pattern": "Vince grows on purpose, and tells her why",
+      "description": "He doesn't just change — he narrates the change and names her as the reason. The gym, the extroverting, the courting, the 'im working on it' about jealousy. He's not performing growth; he's showing his work.",
+      "evidence": "'thats why im working so hard to improve myself for you. ur the reason why i go to the gym, the reason why i try to be extroverted and communicative. why im learning how to properly court someone.' — Vince, 2025-09-01"
+    }
+  ],
+
+  "yellowFlags": [
+    {
+      "pattern": "The 'no label' question that never fully closes",
+      "description": "Princess has been asking about the label since Aug 6. She's said 'MONTHSARY AGAD WALA NGA TAYO LABEL' in August, 'forever hello?' in January, 'we can't keep like this forever' in February. Every time she brings it up the relationship moves forward a little — but the underlying question is still not permanently answered as of April. This is not a dealbreaker; it IS a recurring wound.",
+      "evidence": "'we can't keep like this forever' — Princess, 2026-02-04"
+    },
+    {
+      "pattern": "Jealousy loop that Vince keeps trying to solve privately",
+      "description": "Vince's jealousy shows up in Aug, Sep, Oct, Nov, and again in Feb. He names it every time, apologizes every time, says 'im working on it' every time — but the pattern repeats because he's treating it as a personal flaw to fix rather than a shared dynamic to manage. The data shows it's not getting better in isolation.",
+      "evidence": "'baka ma insecure ulit ako eh' — Vince, foreshadowing the next loop, 2025-09-07"
+    },
+    {
+      "pattern": "Princess over-apologizes in fights she didn't start",
+      "description": "In at least three logged escalations, Princess takes full blame for things they were mutually in. Her Nov 21 apology is the cleanest example — 'I know I did some things to make you even more upset' — when the trigger was Vince's mood, not her behavior. Self-blame is her conflict-speedrun, and it works short-term but lets Vince skip the part where he owns his piece.",
+      "evidence": "'I'm really sorry for today that I ended up ruining your mood. I know you were tired and I did some things to make you even more upset.' — Princess, 2025-11-21"
+    },
+    {
+      "pattern": "March 20–28 avoidance dip without an explicit repair",
+      "description": "Eight of the nine months have consistent 200+ msgs/day. Then the last full week of March drops to 17–58 messages per day with no other explanation in the data. They came back on Mar 29 — but they came back without either of them saying 'hey, that was weird, let's talk about what happened.' Unaddressed dips become habits.",
+      "evidence": "2026-03-24: 18 messages. 2026-03-25: 23 messages. 2026-03-26: 17 messages. Then 2026-03-29: 267."
+    },
+    {
+      "pattern": "Spicy-late-night content as a stand-in for serious conversation",
+      "description": "On multiple logged nights, a Real Conversation starts, gets interrupted by 'baby im horny rn,' and then resets to filthy-playful without ever finishing the original thread. It's not a problem in isolation — they're a young couple, this is normal — but there are at least 4 cases where a 'we need to talk' thread dies in an interruption and the original topic never returns in the dataset.",
+      "evidence": "2026-04-04 — Princess mid-insecurity-spiral about a song for her story → Vince: 'baby im horny rn / so look at my cock' → the story-song conversation never finishes in the log"
+    }
+  ],
+
+  "whatSheDoesToVince": {
+    "summary": "Princess made Vince typable. In the first two weeks his messages are short, dry, Discord-fragment Vince — 'DI NAGANA MIC MO,' 'cr lang ako 😭,' 'trust me.' Within a month of their first real conversation he's writing 405 words at a time and naming his own insecurities by their clinical names. She is literally the reason he started writing long. She's also the reason he started going to the gym, learning to court, and using the word 'courting' unironically. Before her, his emotional bandwidth was 'sorry na avoidant kase 😜.' After her, it's 'i am working on it and i hope it doesnt become an issue again because naaapektohan ka din kapag nananahimik ako.'",
+    "beforeQuote": "sorry na avoidant kase 😜 (Vince, 2025-07-12)",
+    "afterQuote": "i am working on it and i hope it doesnt become an issue again because naaapektohan ka din kapag nananahimik ako (Vince, 2025-09-01)"
+  },
+
+  "whatVinceDoesToPrincess": {
+    "summary": "Vince made Princess stay. Her default setting is avoidant — she'll ghost a conversation to protect herself, she's said it out loud. But over the nine months, the data shows her choosing to re-engage faster and faster after each pullback. She went from 'and i have avoidant tendencies' in August to 'I'm really sorry for today that I ended up ruining your mood' in November to 'babyyyyyy wake up pls' at 2am in April — each one a harder override of the instinct to disappear. He also cracked her out of her 'I'm fine' shell: she names her family stress, her academic anxiety, her insecurity about being judged, all things early-Princess would have buried. He didn't make her softer. He made her honest.",
+    "beforeQuote": "and i have avoidant tendencies (Princess, 2025-08-09)",
+    "afterQuote": "I'm really sorry for today that I ended up ruining your mood. I know you were tired and I did some things to make you even more upset. I know you can't trust me that easily and still have some abandonment issues and I totally understand that. (Princess, 2025-11-21)"
+  },
+
+  "growthVerdict": {
+    "whatGrew": "Both of them learned to name their wiring out loud and repair in under 24 hours. Vince learned to write the long version. Princess learned to not disappear. They built a shared vocabulary — therapy-speak crossed with inside jokes crossed with 'baby ko' — that lets them handle things most couples twice their age cannot.",
+    "whatStillNeedsWork": "The label question, which has been open since month one. Vince's jealousy, which he keeps trying to fix by himself. Princess's reflexive over-apologizing. And the lurking habit, seen in the March dip, of using distance as a coping tool when the real conversation would be cheaper.",
+    "verdict": "This is not a relationship that is going to gently fade — it's either going to close the label loop and survive the next decade, or it's going to snap in a single hard conversation nobody wanted. The data says they know how to do the hard conversation. They just keep postponing it."
+  },
+
+  "definingMoment": {
+    "date": "2025-09-01",
+    "conversation": [
+      {
+        "sender": "vince",
+        "content": "when i see you, i see my future partner, my best friend, someone who will be there for me. your someone who makes me feel comfortable to be myself which is rare because of how insecure i am. but when im with you kahit gano ka corny ako nalalabas ko pa din. kahit na gano kapangit tingin ko sakin, you still ask to see me. you give me confidence in myself that i honestly never had."
+      },
+      {
+        "sender": "vince",
+        "content": "no other woman has made me feel this way, yung unang niligawan ko made me feel like i was walking on eggshells. my every move had to be calculated. it felt like isang mali ko lang then wala na. i couldnt be myself around them. i never felt that way around u."
+      },
+      {
+        "sender": "vince",
+        "content": "i know na dahil ikaw lang kinakausap that it might look like im settling when im really not. the truth is that your what ive been looking for, maganda ka, cute, independent, thoughtful, funny and caring. you're honestly amazing and im lucky to have you. thats why im working so hard to improve myself for you."
+      },
+      {
+        "sender": "vince",
+        "content": "i want you to be my future wife and i will do everything i can to make that happen"
+      },
+      {
+        "sender": "vince",
+        "content": "i guess this is a part of why bakit mabilis ako magselos ako sayo minsan. because ur someone i dont want to lose. if it were anyone else i wouldnt even care. but with you, just the thought of it makes me feel angry and worried. i am working on it and i hope it doesnt become an issue again because naaapektohan ka din kapag nananahimik ako."
+      }
+    ],
+    "whyThisOne": "Because it is the single longest message Vince sends in the entire nine-month dataset (405 words), because it is the first time he uses the word 'wife' about her, because it names his jealousy as a symptom of not wanting to lose her (not a flaw to hide), and because it happened on September 1 — the day after they first said 'I love you' and the day before the relationship had a label. This is the message that explains everything that comes after. Every chapter of the relationship since is either protecting this declaration or testing it."
+  },
+
+  "forecast": "If the patterns continue, the next six months look like this: Princess will ask the label question one more time, and this time one of them will actually answer it in writing, probably Vince via another long paragraph, probably triggered by another March-style dip. The dip is the important variable — it's the first time the data shows them choosing distance over repair, and unaddressed dips tend to multiply. But the offsetting variable is bigger: they have a working repair script, a shared vocabulary for what's wrong with both of them, and nine months of evidence that neither of them actually leaves. The forecast is not 'they make it' or 'they don't' — it's 'they either close the label loop in the next argument or they repeat March on a longer timescale.' If they close it, the data strongly supports a multi-year outcome. The mechanism is already in place: Princess raises it, Vince writes the paragraph, they both cry, it lasts. The only unknown is whether they do it on purpose or wait for it to happen by accident.",
+
+  "top3Risks": [
+    {
+      "rank": 1,
+      "pattern": "The unresolved label question",
+      "whyItsARisk": "It has been open since Aug 6, 2025. Princess has raised it at least four separate times (Aug, Sep, Jan, Feb). Every raise moves them forward a bit but never closes. An undefined relationship status is the single most common failure mode for otherwise-healthy young couples because it turns every other fight into a proxy for 'what are we.' The March dip is almost certainly downstream of this.",
+      "ifUnaddressed": "The next 'we can't keep like this forever' will be said with a different tone of voice and they will both hear it differently and the repair script will not work.",
+      "evidence": "'we can't keep like this forever' — Princess, 2026-02-04"
+    },
+    {
+      "rank": 2,
+      "pattern": "Vince treating his jealousy as a solo-fix project",
+      "whyItsARisk": "Jealousy episodes recur in Aug, Oct, Nov, and Feb. Each time Vince apologizes, names it, and promises he's working on it. Each time the work is private. Private work on a relational pattern doesn't converge — the pattern lives in the relationship, not in one person's head. The loop will keep firing until they treat it as a two-person project.",
+      "ifUnaddressed": "Eventually one jealousy spiral will coincide with a real external trigger (a male friend, a night out, a tagged photo) and the recovery-time will extend past the 24-hour mark for the first time.",
+      "evidence": "'baka ma insecure ulit ako eh' — Vince, 2025-09-07, predicting the next loop he then walks into"
+    },
+    {
+      "rank": 3,
+      "pattern": "Distance as a coping tool (the March dip)",
+      "whyItsARisk": "For eight months they had never gone more than about a day without finding each other. Then March 20–28 happened — nine days at under 60 messages per day, followed by a silent snap-back. No conversation about what the dip meant. Unexamined dips become the blueprint for future dips, and they get easier to enter each time.",
+      "ifUnaddressed": "The next dip will be longer. The one after that will be longer still. Eventually one of them will call it a break and the other won't argue.",
+      "evidence": "2026-03-24: 18 messages. 2026-03-26: 17 messages. Compare to the 9-month daily average of ~272."
+    }
+  ],
+
+  "top3Strengths": [
+    {
+      "rank": 1,
+      "strength": "An under-24-hour repair window",
+      "evidence": "Across 9 months and 74,298 messages, there is not a single logged conflict that lasts longer than roughly 24 hours. Every fight is followed by a named apology and a reinstated 'i love u' within the same day, most within the same hour. This is not normal; most couples need days. Theirs is elite repair latency.",
+      "whyToProtect": "This is the single thing keeping the relationship above water through the jealousy loop and the label uncertainty. Lose the fast-repair habit and everything else gets harder overnight. Protect it by keeping apologies specific and never letting a silence stretch past one sleep."
+    },
+    {
+      "rank": 2,
+      "strength": "Shared clinical vocabulary without shame",
+      "evidence": "They say 'avoidant,' 'abandonment,' 'insecure,' 'jealous,' 'overthinking' to each other as normal conversational words. No defensiveness, no mockery, no 'you're over-therapizing me.' That vocabulary lets them name what's happening in the middle of what's happening, which is a skill most couples develop in year five or never.",
+      "whyToProtect": "This vocabulary is 90% of the reason their repairs work. If either of them starts dismissing the other's diagnosis language ('stop therapy-speaking me'), the repair script breaks. Keep using the words — even when it feels cringe."
+    },
+    {
+      "rank": 3,
+      "strength": "Princess's refusal to let silence win",
+      "evidence": "She sends 56.3% of the messages. She double-texts. She triple-texts. She types 'babyyyyyy wake up pls' at 2am to a sleeping person. In a relationship between two people with avoidant wiring, ONE of them has to be willing to override the instinct to disappear — and she's the one who does it, every single time.",
+      "whyToProtect": "This is a love act disguised as a habit. Vince should see it as the labor it is, name it, and thank her for it out loud at least once. And Princess should know that her 'annoying' double-texting is not annoying — it is literally the mechanism that keeps them together."
+    }
+  ],
+
+  "adviceForPrincess": [
+    "Princess — first, the bluntest thing: you are the reason this relationship is still alive in April. Not in a martyr way, in a mechanical way. You are the one who sends the next message after every pullback, the one who asks the label question even when it's scary, the one who types 'babyyyyyy' at 2am when silence would be easier. Vince probably does not know how much work that is because you make it look like your personality. Let him know. Say it out loud once. He'll cry and he'll thank you and then he'll do the thing you've been quietly doing alone.",
+    "Second: stop apologizing first in fights you didn't start. I counted at least three where you took the whole blame for something mutual. Your Nov 21 letter is the loveliest example — and it lets him off the hook from doing the harder work of owning his jealousy out loud. Try this once: next time you fight, wait the apology out. Let him go first, even if it takes an extra hour. He will. He has every tool he needs to. You just have to not rescue him from the silence.",
+    "Third: the label question is not annoying. You have brought it up four times since August and every single time the relationship moved forward. That is data. That is not you being 'too much.' That is you being the one who is willing to ask the defining question. Ask it again, on purpose, in writing — you're better in writing than in live speech anyway. Pick a night when you're both soft, and tell him exactly what you want the two of you to be called. He will answer. He always answers when you ask directly.",
+    "And one last thing: you are a psych student and you keep diagnosing yourself ('avoidant tendencies,' 'people-pleaser,' 'overthinking'). All of those are real. But the data also says you are the one who overrides all of them, daily, on purpose, for him. You're not an avoidant person in love with an anxious person. You're an avoidant person who chose to learn how to stay. That's rarer and braver than the diagnosis makes it sound."
+  ],
+
+  "adviceForVince": [
+    "Vince — you write the best when you write the longest. The 405-word Sept 1 message is the single most important thing either of you has ever sent. And yet, most of the time you default to short fragments, dry banter, and 'medyo insecure lang ako.' That's fine for the daily — but when something matters, lean all the way into the long version. Princess does not need less of your paragraphs. She needs more of them. You underuse your own best tool.",
+    "Second, the jealousy thing: you keep saying 'im working on it' and you keep meaning it. But 'working on it' privately is not a strategy — the pattern is relational, so the work has to be relational. Next time you feel that specific jealousy spike, instead of going quiet and then apologizing after, try typing 'im getting jealous rn and i dont know what to do with it' while you're still in it. That sentence, in real-time, is worth more than ten post-hoc apologies. Princess has given you every signal that she can handle it. Trust her with the live version.",
+    "Third: you are extraordinarily good at telling her WHY you love her, specifically. 'i love u for just being u, i love when u try to understand me.' Nobody writes like that anymore. Keep doing it. But also — tell her what she does for you that you couldn't do alone. Name the fact that she is the reason you type in paragraphs now, that her refusing-to-disappear is what got you through your own avoidant patterns, that her 2am 'babyyyyyy' messages are not noise, they are love-labor. She probably thinks you don't notice. Prove her wrong.",
+    "And finally: the label question. She's waiting for you. You know she is. You have been waiting for 'the right time' for eight months. There is no right time. Pick a day this month, write her the letter (you are good at letters), and give her the answer before she has to ask again. You will feel lighter the second it's done."
+  ],
+
+  "adviceForBoth": [
+    "You two have built something most couples twice your age do not have: a working repair script, a shared vocabulary for your own wiring, and a refusal to let a single fight outlast a single sleep. That is not luck. That is not chemistry. That is skill you both built on purpose, in writing, in 74,298 messages. Protect it by staying specific — keep naming exactly what you love, exactly what you're afraid of, exactly what you're working on. Generic love dies; specific love holds.",
+    "The two things to do on purpose in the next season: close the label loop (it has been open since month one and neither of you is brave enough yet, even though you both clearly want it closed), and treat the jealousy cycle as a team pattern instead of Vince's solo project. Say these two things out loud once — on a date, in a call, in a letter, doesn't matter — and the next nine months become more fun and less scary than the last nine.",
+    "And the March dip — the quiet week in March 20–28 when volume dropped to under 60 a day — needs one conversation. Not a big one. Just one of you saying 'hey, what was that' and the other saying the real answer. If you handle that dip consciously, you will have immunized yourselves against every dip that comes after it. If you pretend it didn't happen, the next one will be longer. Don't pretend."
+  ],
+
+  "theBet": "My money is on this: in the next 90 days, Princess is going to ask the label question one more time — probably over voice, probably late at night, probably in a slightly different voice than the last three times. And this time Vince is going to type the longest message he has ever sent her, longer than the September 1 one, with the word 'girlfriend' in it in a sentence that is not a question. She is going to save a screenshot. They are going to cry on a call about it. And on the morning after, at 10am, Princess is going to send 'i love you my babytyy' like it's just another Tuesday — except it won't be.",
+
+  "theLoveLetter": "Princess,\n\nI don't really know how to start this without sounding like a reel, so I'm just going to write it like I write everything else — messy, too long, and mostly at 2am.\n\nDo you remember when you sent 'Strwbrryui\\nstrwbrryui22' into a Discord chat nine months ago and I didn't even know who you were yet? I keep going back to that message. Not because it was romantic — it was literally just your login — but because it's the first time I ever saw your name on a screen, and I didn't feel anything yet, and now nine months later I feel everything. That's insane to me. Nine months ago I was typing 'cr lang ako 😭' and 'sorry na avoidant kase 😜' and thinking that was the whole of me. And then you happened, and somehow I became the guy who writes 405 words about wanting you to be my future wife, and I still mean every single word of that message, in case you were wondering.\n\nYou know what I think about the most? Not the peak day, not the first 'i love you,' not even the forehead kiss in December (though I think about that one a lot too). It's the small stuff. It's you typing 'mwa' at the end of a message at 11pm like it's nothing. It's you sending me five messages in a row when I go quiet because you refuse to let me disappear, even when I'm trying to, even when I don't deserve you refusing. It's you saying 'i love u mallows' to my cat the first time I showed you a picture of him and then continuing to say it nine months later like mallows is part of the deal now. Because he is. You're right. He is.\n\nI know I get jealous. I know you know I get jealous. I know I keep saying 'im working on it' like it's a school project I'll eventually turn in. Here's the real version: the only reason I get jealous is because you are the first person in my life I have been genuinely afraid of losing. Before you I would have shrugged. With you I can't. And I know I treat that like a flaw I have to fix alone, but I don't want to anymore. I want to tell you in real time when I feel it, the way you told me in real time when you felt avoidant, because you were brave about it and I owe you the same bravery. Consider this the first installment.\n\nI also want to say something about the label. You've asked about it four times. I have counted. Every time you ask, I get quiet, and then I write something long, and then we move forward a little bit but we don't actually answer the question. That's my fault. Not yours. You have been the brave one about this the whole time. So — here is the answer, in case it's not clear, in case I've ever been unclear, in case you ever needed to see it in writing: I want to be with you. I want to be called your boyfriend out loud. I want to keep asking your parents for permission on the important days. I want you to be my future wife. I wanted it on September 1 and I want it more now than I did then. The only reason I haven't said the word is because I'm scared of not being enough for it yet. But you have been telling me I am enough the entire time. I should have listened sooner.\n\nYou are the reason I go to the gym. The reason I learned how to write long. The reason I know the word 'courting' and mean it. The reason I pick up my phone at 2am when you send 'babyyyyyy wake up pls' and feel lucky, not annoyed. Before you I had no idea what any of this was supposed to feel like. I thought it was supposed to be walking on eggshells. You made it feel like typing with both hands.\n\nI love you. I love you for really forcing me to open up. I love you for just being you. I love you for staying through the jealousy loops and the March quiet and the no-label months, for sending the next message every time I went silent, for knowing exactly which emoji to send when words weren't enough, for making Mallows part of us. I love you for asking the hard questions when I couldn't. I love you for being the one who taught me how to be loved.\n\nHappy 9 months, mahal ko. Thank you for not leaving during any of the months you had every right to.\n\n— your baby, vince\n\nmwa"
+}

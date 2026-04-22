@@ -1,0 +1,339 @@
+{
+  "volume": {
+    "totalMessages": 74298,
+    "totalMessagesVince": 32433,
+    "totalMessagesPrincess": 41865,
+    "totalWords": 287717,
+    "totalWordsVince": 114231,
+    "totalWordsPrincess": 173486,
+    "totalDays": 274,
+    "totalDaysActive": 274,
+    "messagePercent": {
+      "vince": 43.7,
+      "princess": 56.3
+    },
+    "wordPercent": {
+      "vince": 39.7,
+      "princess": 60.3
+    }
+  },
+  "initiation": {
+    "conversationStarterPercent": {
+      "vince": 36.5,
+      "princess": 63.5
+    },
+    "totalConversations": 455
+  },
+  "length": {
+    "avgMessageLengthVince": 3.7,
+    "avgMessageLengthPrincess": 4.3,
+    "longestMessageEver": {
+      "content": "when i see you, i see my future partner, my best friend, someone who will be there for me. your someone who makes me feel comfortable to be myself which is rare because of how insecure i am. but when im with you kahit gano ka corny ako nalalabas ko pa din. kahit na gano kapangit tingin ko sakin, you still ask to see me. you give me confidence in myself that i honestly never had.\n\nyour fun to be around, kahit wala tayong ginagawa, ur presence honestly makes me happy. kahit na nababadmood man ako sometimes (sorry 😭). at the end of the day ur still there and u make me feel better (u even ask me what made me mad 😍)\n\nno other woman has made me feel this way, yung unang niligawan ko made me feel like i was walking on eggshells. my every move had to be calculated. it felt like isang mali ko lang then wala na. i couldnt be myself around them. i never felt that way around u.\n\ni know na dahil ikaw lang kinakausap that it might look like im settling when im really not. the truth is that your what ive been looking for, maganda ka, cute, independent, thoughtful, funny and caring. you're honestly amazing and im lucky to have you. thats why im working so hard to improve myself for you. ur the reason why i go to the gym, the reason why i try to be extroverted and communicative. why im learning how to properly court someone. because your worth it. \n\nno other woman will make me feel the way you make me feel. i can assure you\n\ni love you and i hope that i helped remove some of your overthinking sa intentions ko.\ni want you to be my future wife and i will do everything i can to make that happen\n\n\n\n\n\ndagdag ko lang\ni guess this is a part of why bakit mabilis ako magselos ako sayo minsan. because ur someone i dont want to lose. if it were anyone else i wouldnt even care. kung kalaro ko lang yan sa valo then go. but with you, just the thought of it makes me feel angry and worried.\n\ni am working on it and i hope it doesnt become an issue again because naaapektohan ka din kapag nananahimik ako. but i thought of adding this to further prove my point",
+      "sender": "vince",
+      "date": "2025-09-02",
+      "wordCount": 405
+    }
+  },
+  "timing": {
+    "hourlyDistribution": [
+      2723,
+      1928,
+      796,
+      182,
+      16,
+      60,
+      363,
+      1396,
+      1576,
+      2809,
+      3438,
+      4711,
+      5025,
+      4098,
+      5115,
+      4767,
+      4581,
+      3924,
+      4983,
+      4791,
+      4466,
+      3960,
+      4256,
+      4334
+    ],
+    "peakHour": 14,
+    "dailyDistribution": [
+      9690,
+      13004,
+      9910,
+      12707,
+      10513,
+      9427,
+      9047
+    ],
+    "peakDay": "Monday",
+    "mostActiveDate": "2025-08-11",
+    "mostActiveDateCount": 1642,
+    "mostActiveDateSample": [
+      {
+        "sender": "vince",
+        "content": "THEN LARO TAYO PAGUWI KO"
+      },
+      {
+        "sender": "vince",
+        "content": "ay"
+      },
+      {
+        "sender": "vince",
+        "content": "di ko pa alam 🥲"
+      }
+    ]
+  },
+  "streaks": {
+    "longestStreak": 274,
+    "longestStreakStart": "2025-07-06",
+    "longestStreakEnd": "2026-04-05",
+    "currentStreak": 0
+  },
+  "lateNights": {
+    "lateNightCount": 5629,
+    "lateNightByMonth": [
+      {
+        "month": "2025-07",
+        "count": 268
+      },
+      {
+        "month": "2025-08",
+        "count": 924
+      },
+      {
+        "month": "2025-09",
+        "count": 773
+      },
+      {
+        "month": "2025-10",
+        "count": 680
+      },
+      {
+        "month": "2025-11",
+        "count": 667
+      },
+      {
+        "month": "2025-12",
+        "count": 657
+      },
+      {
+        "month": "2026-01",
+        "count": 752
+      },
+      {
+        "month": "2026-02",
+        "count": 287
+      },
+      {
+        "month": "2026-03",
+        "count": 593
+      },
+      {
+        "month": "2026-04",
+        "count": 28
+      }
+    ]
+  },
+  "replyGaps": {
+    "vince": {
+      "durationMinutes": 1283,
+      "timestamp": "2025-07-21T06:04:07.002Z",
+      "contextBefore": "my man chillin. #valorant #fypシ #fyp #trend #valorantclips"
+    },
+    "princess": {
+      "durationMinutes": 1077,
+      "timestamp": "2026-01-11T13:31:19.950Z",
+      "contextBefore": "okay po"
+    }
+  },
+  "spam": {
+    "vince": {
+      "count": 92,
+      "timestamp": "2025-08-23T15:20:00.000Z",
+      "messages": [
+        "im not asleeppp",
+        "hihiheha",
+        "HAHAHAHHAHA",
+        "WAITTT",
+        "NAG HAHANAP PA AKO",
+        "sa gallery",
+        "dedelete ko na nga bold ko",
+        "bruh",
+        "BABYYYY 😭",
+        "DINEDELRE NA PO"
+      ]
+    },
+    "princess": {
+      "count": 178,
+      "timestamp": "2025-08-24T17:25:00.000Z",
+      "messages": [
+        "oo",
+        "ahhh magkakaiba n atayo ng  understandings niyan",
+        "so magaagree to disagree na lang",
+        "ano oras kaya kami makakarating",
+        "matabungkay daw",
+        "batangas pa rin ata yan",
+        "kasi calatagan is batangas din",
+        "di k rin alam eh",
+        "san ba yung inyo",
+        "alam ko lang sa batangas na kilala na resort is yung the stilts eh"
+      ]
+    }
+  },
+  "emojis": {
+    "vince": [
+      {
+        "emoji": "😭",
+        "count": 2075
+      },
+      {
+        "emoji": "😊",
+        "count": 309
+      },
+      {
+        "emoji": "😡",
+        "count": 224
+      },
+      {
+        "emoji": "😓",
+        "count": 145
+      },
+      {
+        "emoji": "🥺",
+        "count": 142
+      }
+    ],
+    "princess": [
+      {
+        "emoji": "😭",
+        "count": 590
+      },
+      {
+        "emoji": "😓",
+        "count": 84
+      },
+      {
+        "emoji": "😡",
+        "count": 80
+      },
+      {
+        "emoji": "😂",
+        "count": 79
+      },
+      {
+        "emoji": "💔",
+        "count": 77
+      }
+    ]
+  },
+  "words": {
+    "vinceTopWords": [
+      {
+        "word": "baby",
+        "count": 887
+      },
+      {
+        "word": "babyy",
+        "count": 524
+      },
+      {
+        "word": "po",
+        "count": 481
+      },
+      {
+        "word": "babyyy",
+        "count": 481
+      },
+      {
+        "word": "hehe",
+        "count": 463
+      },
+      {
+        "word": "want",
+        "count": 441
+      },
+      {
+        "word": "sorry",
+        "count": 428
+      },
+      {
+        "word": "ano",
+        "count": 408
+      },
+      {
+        "word": "wait",
+        "count": 392
+      },
+      {
+        "word": "nalang",
+        "count": 324
+      }
+    ],
+    "princessTopWords": [
+      {
+        "word": "baby",
+        "count": 905
+      },
+      {
+        "word": "ano",
+        "count": 894
+      },
+      {
+        "word": "wala",
+        "count": 598
+      },
+      {
+        "word": "si",
+        "count": 585
+      },
+      {
+        "word": "yan",
+        "count": 563
+      },
+      {
+        "word": "kami",
+        "count": 561
+      },
+      {
+        "word": "ni",
+        "count": 493
+      },
+      {
+        "word": "sana",
+        "count": 482
+      },
+      {
+        "word": "niya",
+        "count": 480
+      },
+      {
+        "word": "gusto",
+        "count": 463
+      }
+    ],
+    "topWordsShared": [
+      "baby",
+      "ano"
+    ]
+  },
+  "firstAndLast": {
+    "firstMessage": {
+      "sender": "princess",
+      "content": "Strwbrryui\nstrwbrryui22",
+      "timestamp": "2025-07-06T15:44:51.232Z",
+      "platform": "discord"
+    },
+    "lastMessage": {
+      "sender": "princess",
+      "content": "Tangi",
+      "timestamp": "2026-04-05T15:21:10.704Z",
+      "platform": "messenger"
+    }
+  }
+}

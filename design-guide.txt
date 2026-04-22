@@ -1,0 +1,123 @@
+EIGHT MONTHS — Design Guide
+============================
+
+COLOR PALETTES (Intimate Warmth Progression)
+=============================================
+
+Backgrounds transition from warm cream to deeper, duskier tones as the
+story progresses — like dimming lights as you get closer to someone.
+
+ACT 1 — "Look How Far We've Come" (Slides 1-10)
+------------------------------------------------
+Mood:     Playful, light, nostalgic — gets her smiling
+bg:       #FAF3E8 (warm cream)
+accent:   #C68B59 (warm gold)
+highlight:#E8CBA7 (light caramel)
+text:     #3D2B1F (espresso)
+
+ACT 2 — "The Patterns You Never Noticed" (Slides 11-18)
+--------------------------------------------------------
+Mood:     Observational, knowing — "wait, that's actually us"
+bg:       #F5EDE4 (taupe cream)
+accent:   #B87B6A (terracotta)
+highlight:#D4A59A (dusty rose)
+text:     #3D2B1F (espresso)
+
+ACT 3 — "Your Eight Months, In Chapters" (Slides 19-23)
+--------------------------------------------------------
+Mood:     Quiet, reflective — she's reading carefully now
+bg:       #F0E6E0 (warm blush)
+accent:   #9B6B6B (mauve)
+highlight:#C4A4A4 (soft taupe)
+text:     #3D2B1F (espresso)
+
+ACT 4 — "Who You Both Are" (Slides 24-29)
+-----------------------------------------
+Mood:     Intimate, specific — feeling deeply seen
+bg:       #EBE0D8 (champagne)
+accent:   #8B6B5C (warm cocoa)
+highlight:#B8A090 (sand)
+text:     #3D2B1F (espresso)
+
+ACT 5 — "What This All Means" (Slides 30-34)
+--------------------------------------------
+Mood:     Emotional, vulnerable — the gut punch act
+bg:       #E8DDD5 (vanilla dusk)
+accent:   #A66B7C (old rose)
+highlight:#D4A5B0 (blush)
+text:     #3D2B1F (espresso)
+
+ACT 6 — "What Comes Next" (Slides 35-41)
+----------------------------------------
+Mood:     Forward-looking, oracle energy
+bg:       #E5E0EB (soft lilac-grey)
+accent:   #7B6B8B (dusty plum)
+highlight:#A99BB5 (muted lavender)
+text:     #3D2B1F (espresso)
+
+END CARD — Slide 43
+-------------------
+Mood:     Quiet, infinite, intimate
+bg:       #1A0A0A (near-black)
+accent:   #C68B59 (warm gold) — bookends with Act 1
+highlight:#FFF8F3 (warm white)
+text:     #FFF8F3 (warm white)
+
+TYPOGRAPHY
+==========
+
+Google Fonts (via next/font/google):
+- Playfair Display — headings, chapter names, stat callouts
+- DM Sans — body, labels, captions
+- Dancing Script — emotional moments only, used sparingly
+  (love letter, end card, one or two pull quotes)
+
+Background Particles:
+- Tiny petals or soft dots drifting upward on all slides
+- Color matches current act accent
+- 15-20% opacity, never distracting
+- Density: low (20-30 particles max)
+
+TRANSITIONS
+===========
+
+Background Color:
+- Smooth 1.2s transition between act shifts
+- No hard cuts
+
+Act Title Pages:
+- Full-screen title card before each new act
+- 1.5s fade-in
+- Press → to continue to first slide of act
+
+Slide Transitions:
+- Fade + 20px upward drift
+- 0.5s ease
+- All elements animate on slide enter, not page load
+
+ACT STRUCTURE REFERENCE
+=======================
+
+Act 1:  Slides 1-10   (Opening → First Message → Big Numbers → Stats)
+Act 2:  Slides 11-18  (Act Title + 7 pattern slides + 1 summary)
+Act 3:  Slides 19-23  (Act Title + 5 chapter slides)
+Act 4:  Slides 24-29  (Act Title + 6 profile/analysis slides)
+Act 5:  Slides 30-34  (Act Title + 5 emotional/meaning slides)
+Act 6:  Slides 35-41  (Act Title + 7 forecast/advice slides)
+End:    Slides 42-43  (Still Here + End Card)
+
+COMPONENT COLORS
+================
+
+Cards & Surfaces:
+- rounded-2xl
+- white bg at 60% opacity
+- backdrop-blur-sm
+- soft box shadow: 0 4px 24px rgba(accent, 0.15)
+  (use current act's accent color for shadow tint)
+
+Chat Bubbles:
+- Princess (left): bg-white/80, border-l-4 border-accent
+- Vince (right): bg-white/80, border-r-4 border-highlight
+
+Last Updated: 2026-04-16
