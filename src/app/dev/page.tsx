@@ -126,8 +126,8 @@ export default function DevPage() {
                   <Badge variant="secondary">Secondary</Badge>
                   <Badge variant="destructive">Destructive</Badge>
                   <Badge variant="outline">Outline</Badge>
-                  <Badge variant="greenFlag">Green Flag</Badge>
-                  <Badge variant="yellowFlag">Yellow Flag</Badge>
+                  <Badge variant="secondary">Green Flag</Badge>
+                  <Badge variant="outline">Yellow Flag</Badge>
                 </CardContent>
               </Card>
             </section>
