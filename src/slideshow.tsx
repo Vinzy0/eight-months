@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { getSlideAct, actThemes, actNames } from "@/lib/colors";
 import Particles from "@/components/Particles";
+import VinceNote from "@/components/VinceNote";
 
 import Slide01 from "@/slides/Slide01";
 import Slide02 from "@/slides/Slide02";
@@ -37,7 +38,6 @@ import Slide29 from "@/slides/Slide29";
 import Slide30 from "@/slides/Slide30";
 import Slide31 from "@/slides/Slide31";
 import Slide32 from "@/slides/Slide32";
-import Slide33 from "@/slides/Slide33";
 import Slide34 from "@/slides/Slide34";
 import Slide35 from "@/slides/Slide35";
 import Slide36 from "@/slides/Slide36";
@@ -84,7 +84,6 @@ const slideComponents: Record<number, React.ComponentType> = {
   30: Slide30,
   31: Slide31,
   32: Slide32,
-  33: Slide33,
   34: Slide34,
   35: Slide35,
   36: Slide36,
@@ -108,11 +107,15 @@ export default function Slideshow() {
   const goTo = useCallback(
     (next: number) => {
       if (transitioning.current) return;
-      if (next < 1 || next > TOTAL_SLIDES) return;
-      if (!slideComponents[next]) return; // only navigate to built slides
+      const step = next > current ? 1 : -1;
+      let target = next;
+      while (target >= 1 && target <= TOTAL_SLIDES && !slideComponents[target]) {
+        target += step;
+      }
+      if (target < 1 || target > TOTAL_SLIDES || !slideComponents[target]) return;
       transitioning.current = true;
-      setDirection(next > current ? 1 : -1);
-      setCurrent(next);
+      setDirection(step);
+      setCurrent(target);
       setTimeout(() => {
         transitioning.current = false;
       }, 600);
@@ -200,7 +203,7 @@ export default function Slideshow() {
           </svg>
         </button>
       )}
-      {current < TOTAL_SLIDES && slideComponents[current + 1] && (
+      {current < TOTAL_SLIDES && (() => { let n = current + 1; while (n <= TOTAL_SLIDES && !slideComponents[n]) n++; return n <= TOTAL_SLIDES; })() && (
         <button
           onClick={() => goTo(current + 1)}
           className="fixed right-4 top-1/2 -translate-y-1/2 z-40 p-3 rounded-full opacity-20 hover:opacity-60 transition-opacity"
@@ -211,6 +214,9 @@ export default function Slideshow() {
           </svg>
         </button>
       )}
+
+      {/* Vince floating note */}
+      <VinceNote currentSlide={current} />
 
       {/* Slide counter */}
       <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40">

@@ -10,117 +10,166 @@ export default function Slide31() {
   const theme = actThemes[act];
   const { whatSheDoesToVince } = analysis;
 
-  const beforeTraits = ["short fragments", "avoidant", "dry banter"];
-  const afterTraits = ["long paragraphs", "names his feelings", "writes to stay"];
+  const columns = [
+    {
+      label: "July 2025",
+      traits: ["short fragments", "avoidant", "dry banter"],
+      quote: whatSheDoesToVince.beforeQuote,
+      sender: "vince" as const,
+      delay: 0.2,
+    },
+    {
+      label: "September 2025",
+      traits: ["long paragraphs", "names his feelings", "writes to stay"],
+      quote: whatSheDoesToVince.afterQuote,
+      sender: "vince" as const,
+      delay: 0.35,
+    },
+    {
+      // from quotePairs 2026-03-30 — Vince naming emotion instead of shutting down
+      label: "March 2026",
+      traits: ["stays through conflict", "names his sadness", "doesn't disappear"],
+      quote: "its honestly because i still feel sad, it doesn't mean that i love u any less (Vince, 2026-03-30)",
+      sender: "vince" as const,
+      delay: 0.5,
+    },
+  ];
 
   return (
     <div
-      className="relative w-full h-full px-6 py-8 flex flex-col overflow-y-auto"
+      className="relative w-full h-full flex flex-col overflow-hidden px-6 py-5"
       style={{ backgroundColor: theme.bg }}
     >
       {/* Header */}
-      <motion.h1
-        className="font-[family-name:var(--font-playfair)] italic text-[clamp(2rem,5vw,3.5rem)] text-center leading-[1.1] mt-4 mb-8"
-        style={{ color: theme.text }}
-        initial={{ opacity: 0, y: 20 }}
+      <motion.div
+        className="shrink-0 mb-4"
+        initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.5 }}
       >
-        What Princess does to Vince.
-      </motion.h1>
-
-      {/* Split Layout */}
-      <div className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-        {/* LEFT COLUMN — Before (Early Vince) */}
-        <motion.div
-          className="rounded-2xl p-6 flex flex-col"
-          style={{ backgroundColor: "rgba(255, 255, 255, 0.4)" }}
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
+        <span
+          style={{
+            fontFamily: "var(--font-dm-sans)",
+            fontSize: "0.62rem",
+            textTransform: "uppercase",
+            letterSpacing: "0.2em",
+            fontWeight: 700,
+            color: theme.accent,
+            opacity: 0.7,
+          }}
         >
-          <span
-            className="font-[family-name:var(--font-dm-sans)] text-xs font-medium uppercase tracking-wider mb-4"
-            style={{ color: theme.accent }}
-          >
-            July 2025
-          </span>
-
-          {/* Trait Chips */}
-          <div className="flex flex-wrap gap-2 mb-6">
-            {beforeTraits.map((trait, index) => (
-              <motion.span
-                key={trait}
-                className="px-3 py-1.5 rounded-full text-xs font-medium"
-                style={{ backgroundColor: theme.accent, color: theme.bg }}
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
-              >
-                {trait}
-              </motion.span>
-            ))}
-          </div>
-
-          {/* Before Quote */}
-          <div className="mt-auto">
-            <ChatBubble
-              sender="vince"
-              content={whatSheDoesToVince.beforeQuote}
-              delay={0.5}
-            />
-          </div>
-        </motion.div>
-
-        {/* RIGHT COLUMN — After (Late Vince) */}
-        <motion.div
-          className="rounded-2xl p-6 flex flex-col"
-          style={{ backgroundColor: "rgba(255, 255, 255, 0.4)" }}
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
+          What This All Means
+        </span>
+        <h1
+          style={{
+            fontFamily: "var(--font-playfair)",
+            fontStyle: "italic",
+            fontSize: "clamp(1.7rem, 4vw, 2.8rem)",
+            lineHeight: 1.1,
+            color: theme.text,
+            marginTop: "0.2rem",
+          }}
         >
-          <span
-            className="font-[family-name:var(--font-dm-sans)] text-xs font-medium uppercase tracking-wider mb-4"
-            style={{ color: theme.accent }}
+          What Princess does to Vince.
+        </h1>
+      </motion.div>
+
+      {/* Summary */}
+      <motion.p
+        className="shrink-0 mb-4"
+        style={{
+          fontFamily: "var(--font-dm-sans)",
+          fontSize: "0.75rem",
+          lineHeight: 1.55,
+          color: theme.text,
+          opacity: 0.75,
+          maxWidth: "70ch",
+        }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.1 }}
+      >
+        {whatSheDoesToVince.summary}
+      </motion.p>
+
+      {/* Three-column timeline */}
+      <div
+        className="flex-1 min-h-0"
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(3, 1fr)",
+          gap: "0.65rem",
+        }}
+      >
+        {columns.map((col, i) => (
+          <motion.div
+            key={col.label}
+            style={{
+              backgroundColor: "rgba(255,255,255,0.4)",
+              borderRadius: "1rem",
+              padding: "1rem",
+              display: "flex",
+              flexDirection: "column",
+              gap: "0.5rem",
+              overflow: "hidden",
+              borderTop: `3px solid ${theme.accent}${i === 2 ? "80" : "30"}`,
+            }}
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: col.delay }}
           >
-            September 2025
-          </span>
+            <span
+              style={{
+                fontFamily: "var(--font-dm-sans)",
+                fontSize: "0.62rem",
+                fontWeight: 700,
+                textTransform: "uppercase",
+                letterSpacing: "0.12em",
+                color: theme.accent,
+              }}
+            >
+              {col.label}
+            </span>
 
-          {/* Trait Chips */}
-          <div className="flex flex-wrap gap-2 mb-6">
-            {afterTraits.map((trait, index) => (
-              <motion.span
-                key={trait}
-                className="px-3 py-1.5 rounded-full text-xs font-medium"
-                style={{ backgroundColor: theme.accent, color: theme.bg }}
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}
-              >
-                {trait}
-              </motion.span>
-            ))}
-          </div>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "0.3rem" }}>
+              {col.traits.map((trait) => (
+                <span
+                  key={trait}
+                  style={{
+                    backgroundColor: theme.accent,
+                    color: theme.bg,
+                    borderRadius: "999px",
+                    padding: "0.2rem 0.6rem",
+                    fontSize: "0.62rem",
+                    fontFamily: "var(--font-dm-sans)",
+                    fontWeight: 600,
+                  }}
+                >
+                  {trait}
+                </span>
+              ))}
+            </div>
 
-          {/* After Quote */}
-          <div className="mt-auto">
-            <ChatBubble
-              sender="vince"
-              content={whatSheDoesToVince.afterQuote}
-              delay={0.7}
-            />
-          </div>
-        </motion.div>
+            <div style={{ marginTop: "auto" }}>
+              <ChatBubble sender={col.sender} content={col.quote} delay={col.delay + 0.1} />
+            </div>
+          </motion.div>
+        ))}
       </div>
 
-      {/* Bottom Line */}
+      {/* Bottom line */}
       <motion.p
-        className="font-[family-name:var(--font-playfair)] italic text-xl text-center"
-        style={{ color: theme.text }}
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 0.8 }}
+        className="shrink-0 text-center mt-3"
+        style={{
+          fontFamily: "var(--font-playfair)",
+          fontStyle: "italic",
+          fontSize: "1rem",
+          color: theme.text,
+          opacity: 0.65,
+        }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.7 }}
       >
         She changed how he shows up.
       </motion.p>

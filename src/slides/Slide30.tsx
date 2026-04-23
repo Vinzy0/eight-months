@@ -12,75 +12,139 @@ export default function Slide30() {
 
   return (
     <div
-      className="relative w-full h-full px-6 py-8 flex flex-col overflow-y-auto"
+      className="relative w-full h-full flex flex-col overflow-hidden px-6 py-5"
       style={{ backgroundColor: theme.bg }}
     >
       {/* Header */}
       <motion.div
-        className="text-center mb-6"
-        initial={{ opacity: 0, y: 20 }}
+        className="shrink-0 text-center mb-4"
+        initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
+        <span
+          style={{
+            fontFamily: "var(--font-dm-sans)",
+            fontSize: "0.62rem",
+            textTransform: "uppercase",
+            letterSpacing: "0.2em",
+            fontWeight: 700,
+            color: theme.accent,
+            opacity: 0.7,
+          }}
+        >
+          September 1, 2025
+        </span>
         <h1
-          className="font-[family-name:var(--font-playfair)] italic text-[clamp(2rem,5vw,3.5rem)] leading-[1.1] mt-4"
-          style={{ color: theme.text }}
+          style={{
+            fontFamily: "var(--font-playfair)",
+            fontStyle: "italic",
+            fontSize: "clamp(1.6rem, 4vw, 2.6rem)",
+            lineHeight: 1.15,
+            color: theme.text,
+            marginTop: "0.2rem",
+          }}
         >
           If we had to pick one moment.
         </h1>
-        <p
-          className="font-[family-name:var(--font-dm-sans)] text-sm mt-3 opacity-70"
-          style={{ color: theme.text }}
-        >
-          September 1, 2025
-        </p>
       </motion.div>
 
-      {/* Chat Bubbles — All from Vince (right-aligned) */}
-      <motion.div
-        className="w-full max-w-3xl mx-auto flex flex-col gap-4 mb-8"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.2 }}
+      {/* Two-column layout — chat left, why-this-one right */}
+      <div
+        className="flex-1 min-h-0"
+        style={{
+          display: "grid",
+          gridTemplateColumns: "1fr 1fr",
+          gap: "1rem",
+        }}
       >
-        {definingMoment.conversation.map((message: any, index: number) => (
-          <ChatBubble
-            key={index}
-            sender={message.sender}
-            content={message.content}
-            delay={0.3 + index * 0.15}
-          />
-        ))}
-      </motion.div>
-
-      {/* Why This One Card */}
-      <motion.div
-        className="w-full max-w-3xl mx-auto"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 1.1 }}
-      >
-        <div
-          className="rounded-2xl p-6 backdrop-blur-sm"
+        {/* Left — conversation */}
+        <motion.div
           style={{
-            backgroundColor: "rgba(255, 255, 255, 0.6)",
-            boxShadow: "0 4px 24px rgba(0, 0, 0, 0.08)",
+            display: "flex",
+            flexDirection: "column",
+            gap: "0.5rem",
+            overflow: "hidden",
           }}
+          initial={{ opacity: 0, x: -16 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <h3
-            className="font-[family-name:var(--font-playfair)] text-lg font-bold mb-3"
-            style={{ color: theme.text }}
+          {definingMoment.conversation.map((msg: any, i: number) => (
+            <ChatBubble
+              key={i}
+              sender={msg.sender}
+              content={msg.content}
+              delay={0.25 + i * 0.15}
+            />
+          ))}
+        </motion.div>
+
+        {/* Right — why this one + context */}
+        <motion.div
+          style={{ display: "flex", flexDirection: "column", gap: "0.65rem" }}
+          initial={{ opacity: 0, x: 16 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+        >
+          <div
+            style={{
+              backgroundColor: "rgba(255,255,255,0.6)",
+              borderRadius: "1rem",
+              padding: "1.25rem",
+              backdropFilter: "blur(6px)",
+              boxShadow: "0 4px 20px rgba(0,0,0,0.07)",
+              flex: 1,
+            }}
           >
-            Why this exchange
-          </h3>
-          <p
-            className="font-[family-name:var(--font-dm-sans)] text-sm leading-relaxed"
-            style={{ color: theme.text, opacity: 0.85 }}
+            <h3
+              style={{
+                fontFamily: "var(--font-playfair)",
+                fontSize: "1.1rem",
+                fontWeight: 700,
+                color: theme.text,
+                marginBottom: "0.6rem",
+              }}
+            >
+              Why this exchange
+            </h3>
+            <p
+              style={{
+                fontFamily: "var(--font-dm-sans)",
+                fontSize: "0.75rem",
+                lineHeight: 1.6,
+                color: theme.text,
+                opacity: 0.85,
+              }}
+            >
+              {definingMoment.whyThisOne}
+            </p>
+          </div>
+
+          {/* Pull quote */}
+          <div
+            style={{
+              borderLeft: `3px solid ${theme.accent}40`,
+              paddingLeft: "1rem",
+              paddingTop: "0.25rem",
+              paddingBottom: "0.25rem",
+            }}
           >
-            {definingMoment.whyThisOne}
-          </p>
-        </div>
-      </motion.div>
+            <p
+              style={{
+                fontFamily: "var(--font-playfair)",
+                fontStyle: "italic",
+                fontSize: "1rem",
+                color: theme.text,
+                opacity: 0.7,
+                lineHeight: 1.4,
+              }}
+            >
+              The moment the conversation changed.
+            </p>
+          </div>
+        </motion.div>
+      </div>
     </div>
   );
 }

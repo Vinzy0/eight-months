@@ -12,128 +12,196 @@ export default function Slide29() {
 
   return (
     <div
-      className="relative w-full h-full px-6 py-8 flex flex-col overflow-y-auto"
+      className="relative w-full h-full flex flex-col overflow-hidden px-6 py-5"
       style={{ backgroundColor: theme.bg }}
     >
       {/* Header */}
-      <motion.h1
-        className="font-[family-name:var(--font-playfair)] italic text-[clamp(2rem,5vw,3.5rem)] text-center leading-[1.1] mt-4 mb-6"
-        style={{ color: theme.text }}
-        initial={{ opacity: 0, y: 20 }}
+      <motion.div
+        className="shrink-0 mb-4"
+        initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.5 }}
       >
-        The Full Picture
-      </motion.h1>
-
-      {/* Split Layout */}
-      <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-        {/* LEFT COLUMN — Transformation Stories */}
-        <motion.div
-          className="flex flex-col gap-5"
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
+        <span
+          style={{
+            fontFamily: "var(--font-dm-sans)",
+            fontSize: "0.62rem",
+            textTransform: "uppercase",
+            letterSpacing: "0.2em",
+            fontWeight: 700,
+            color: theme.accent,
+            opacity: 0.7,
+          }}
         >
-          {/* Story 1: What She Does to Him */}
-          <div
-            className="rounded-2xl p-5"
-            style={{
-              backgroundColor: "rgba(255, 255, 255, 0.4)",
-              borderLeft: `4px solid ${theme.highlight}50`,
-            }}
-          >
-            <h3
-              className="font-[family-name:var(--font-playfair)] text-lg font-bold mb-2"
-              style={{ color: theme.text }}
-            >
-              What She Does to Him
-            </h3>
-            <p
-              className="font-[family-name:var(--font-dm-sans)] text-sm leading-relaxed mb-4"
-              style={{ color: theme.text, opacity: 0.85 }}
-            >
-              {whatSheDoesToVince.summary}
-            </p>
-            <div className="flex flex-col gap-3">
-              <ChatBubble sender="vince" content={whatSheDoesToVince.beforeQuote} delay={0.3} />
-              <ChatBubble sender="vince" content={whatSheDoesToVince.afterQuote} delay={0.4} />
-            </div>
-          </div>
+          What This All Means
+        </span>
+        <h1
+          style={{
+            fontFamily: "var(--font-playfair)",
+            fontStyle: "italic",
+            fontSize: "clamp(1.7rem, 4vw, 2.8rem)",
+            lineHeight: 1.1,
+            color: theme.text,
+            marginTop: "0.2rem",
+          }}
+        >
+          The Full Picture
+        </h1>
+      </motion.div>
 
-          {/* Story 2: What He Does to Her */}
-          <div
-            className="rounded-2xl p-5"
+      {/* Body — 3 columns */}
+      <div
+        className="flex-1 min-h-0"
+        style={{
+          display: "grid",
+          gridTemplateColumns: "1fr 1fr 1fr",
+          gap: "0.65rem",
+        }}
+      >
+        {/* Col 1 — What She Does to Him */}
+        <motion.div
+          style={{
+            backgroundColor: "rgba(255,255,255,0.4)",
+            borderLeft: `3px solid ${theme.highlight}60`,
+            borderRadius: "1rem",
+            padding: "1rem",
+            display: "flex",
+            flexDirection: "column",
+            gap: "0.5rem",
+            overflow: "hidden",
+          }}
+          initial={{ opacity: 0, x: -16 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.15 }}
+        >
+          <h3
             style={{
-              backgroundColor: "rgba(255, 255, 255, 0.4)",
-              borderLeft: `4px solid ${theme.highlight}50`,
+              fontFamily: "var(--font-playfair)",
+              fontSize: "1rem",
+              fontWeight: 700,
+              color: theme.text,
+              lineHeight: 1.2,
             }}
           >
-            <h3
-              className="font-[family-name:var(--font-playfair)] text-lg font-bold mb-2"
-              style={{ color: theme.text }}
-            >
-              What He Does to Her
-            </h3>
-            <p
-              className="font-[family-name:var(--font-dm-sans)] text-sm leading-relaxed mb-4"
-              style={{ color: theme.text, opacity: 0.85 }}
-            >
-              {whatVinceDoesToPrincess.summary}
-            </p>
-            <div className="flex flex-col gap-3">
-              <ChatBubble sender="princess" content={whatVinceDoesToPrincess.beforeQuote} delay={0.5} />
-              <ChatBubble sender="princess" content={whatVinceDoesToPrincess.afterQuote} delay={0.6} />
-            </div>
+            What She Does to Him
+          </h3>
+          <p
+            style={{
+              fontFamily: "var(--font-dm-sans)",
+              fontSize: "0.7rem",
+              lineHeight: 1.5,
+              color: theme.text,
+              opacity: 0.8,
+            }}
+          >
+            {whatSheDoesToVince.summary}
+          </p>
+          <div style={{ marginTop: "auto" }}>
+            <ChatBubble sender="vince" content={whatSheDoesToVince.afterQuote} delay={0.4} />
           </div>
         </motion.div>
 
-        {/* RIGHT COLUMN — Yellow Flags */}
+        {/* Col 2 — What He Does to Her */}
         <motion.div
-          initial={{ opacity: 0, x: 20 }}
+          style={{
+            backgroundColor: "rgba(255,255,255,0.4)",
+            borderLeft: `3px solid ${theme.highlight}60`,
+            borderRadius: "1rem",
+            padding: "1rem",
+            display: "flex",
+            flexDirection: "column",
+            gap: "0.5rem",
+            overflow: "hidden",
+          }}
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.25 }}
+        >
+          <h3
+            style={{
+              fontFamily: "var(--font-playfair)",
+              fontSize: "1rem",
+              fontWeight: 700,
+              color: theme.text,
+              lineHeight: 1.2,
+            }}
+          >
+            What He Does to Her
+          </h3>
+          <p
+            style={{
+              fontFamily: "var(--font-dm-sans)",
+              fontSize: "0.7rem",
+              lineHeight: 1.5,
+              color: theme.text,
+              opacity: 0.8,
+            }}
+          >
+            {whatVinceDoesToPrincess.summary}
+          </p>
+          <div style={{ marginTop: "auto" }}>
+            <ChatBubble sender="princess" content={whatVinceDoesToPrincess.afterQuote} delay={0.5} />
+          </div>
+        </motion.div>
+
+        {/* Col 3 — Yellow Flags */}
+        <motion.div
+          style={{ display: "flex", flexDirection: "column", gap: "0.5rem", overflow: "hidden" }}
+          initial={{ opacity: 0, x: 16 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
+          transition={{ duration: 0.5, delay: 0.35 }}
         >
           <h2
-            className="font-[family-name:var(--font-playfair)] text-xl font-bold mb-4"
-            style={{ color: theme.text }}
+            style={{
+              fontFamily: "var(--font-playfair)",
+              fontSize: "1rem",
+              fontWeight: 700,
+              color: theme.text,
+              flexShrink: 0,
+            }}
           >
             Awareness Notes
           </h2>
-          <div className="flex flex-col gap-3">
-            {yellowFlags.map((flag: any, index: number) => (
-              <motion.div
-                key={index}
-                className="rounded-xl p-4"
+          {yellowFlags.map((flag: any, i: number) => (
+            <motion.div
+              key={i}
+              style={{
+                backgroundColor: "rgba(255,255,255,0.35)",
+                borderLeft: "3px solid rgba(255,193,7,0.35)",
+                borderRadius: "0.75rem",
+                padding: "0.65rem 0.85rem",
+                flex: 1,
+                minHeight: 0,
+                overflow: "hidden",
+              }}
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4, delay: 0.4 + i * 0.08 }}
+            >
+              <p
                 style={{
-                  backgroundColor: "rgba(255, 255, 255, 0.35)",
-                  borderLeft: "3px solid rgba(255, 193, 7, 0.3)",
+                  fontFamily: "var(--font-dm-sans)",
+                  fontSize: "0.7rem",
+                  fontWeight: 700,
+                  color: theme.text,
+                  marginBottom: "0.2rem",
                 }}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
               >
-                <h4
-                  className="font-[family-name:var(--font-dm-sans)] text-sm font-bold mb-1"
-                  style={{ color: theme.text }}
-                >
-                  {flag.pattern}
-                </h4>
-                <p
-                  className="font-[family-name:var(--font-dm-sans)] text-xs leading-relaxed mb-2"
-                  style={{ color: theme.text, opacity: 0.8 }}
-                >
-                  {flag.description}
-                </p>
-                <p
-                  className="font-[family-name:var(--font-dm-sans)] text-xs italic leading-relaxed"
-                  style={{ color: theme.accent, opacity: 0.65 }}
-                >
-                  &ldquo;{flag.evidence}&rdquo;
-                </p>
-              </motion.div>
-            ))}
-          </div>
+                {flag.pattern}
+              </p>
+              <p
+                style={{
+                  fontFamily: "var(--font-dm-sans)",
+                  fontSize: "0.63rem",
+                  lineHeight: 1.4,
+                  color: theme.text,
+                  opacity: 0.75,
+                }}
+              >
+                {flag.description}
+              </p>
+            </motion.div>
+          ))}
         </motion.div>
       </div>
     </div>

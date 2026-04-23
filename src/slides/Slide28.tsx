@@ -7,64 +7,108 @@ import { getSlideAct, actThemes } from "@/lib/colors";
 export default function Slide28() {
   const act = getSlideAct(28);
   const theme = actThemes[act];
-  const greenFlags = analysis.greenFlags;
+  const greenFlags: any[] = analysis.greenFlags;
 
   return (
     <div
-      className="relative w-full h-full px-6 py-8 flex flex-col items-center overflow-y-auto"
+      className="relative w-full h-full flex flex-col overflow-hidden px-6 py-5"
       style={{ backgroundColor: theme.bg }}
     >
       {/* Header */}
-      <motion.h1
-        className="font-[family-name:var(--font-playfair)] italic text-[clamp(2rem,5vw,3.5rem)] text-center leading-[1.1] mt-8 mb-2"
-        style={{ color: theme.text }}
-        initial={{ opacity: 0, y: 20 }}
+      <motion.div
+        className="shrink-0 mb-4"
+        initial={{ opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.5 }}
       >
-        What You&apos;re Doing Right
-      </motion.h1>
+        <span
+          style={{
+            fontFamily: "var(--font-dm-sans)",
+            fontSize: "0.62rem",
+            textTransform: "uppercase",
+            letterSpacing: "0.2em",
+            fontWeight: 700,
+            color: theme.accent,
+            opacity: 0.7,
+          }}
+        >
+          What You&apos;re Doing Right
+        </span>
+        <h1
+          style={{
+            fontFamily: "var(--font-playfair)",
+            fontStyle: "italic",
+            fontSize: "clamp(1.7rem, 4vw, 2.8rem)",
+            lineHeight: 1.1,
+            color: theme.text,
+            marginTop: "0.2rem",
+          }}
+        >
+          Seven Green Flags
+        </h1>
+      </motion.div>
 
-      {/* Subtitle */}
-      <motion.p
-        className="font-[family-name:var(--font-dm-sans)] text-base uppercase tracking-[0.2em] mb-8"
-        style={{ color: theme.accent }}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.6 }}
+      {/* Grid — 3 cols so 7 cards fit in 3 rows */}
+      <div
+        className="flex-1 min-h-0"
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(3, 1fr)",
+          gridTemplateRows: "repeat(3, 1fr)",
+          gap: "0.6rem",
+        }}
       >
-        Seven green flags
-      </motion.p>
-
-      {/* Green Flag Cards */}
-      <div className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-        {greenFlags.map((flag: any, index: number) => (
+        {greenFlags.map((flag: any, i: number) => (
           <motion.div
-            key={index}
-            className="rounded-2xl p-5 flex flex-col gap-2"
+            key={i}
             style={{
-              backgroundColor: "rgba(255, 255, 255, 0.4)",
-              borderLeft: `4px solid rgba(76, 175, 80, 0.3)`,
+              backgroundColor: "rgba(255,255,255,0.45)",
+              borderLeft: "3px solid rgba(76,175,80,0.35)",
+              borderRadius: "1rem",
+              padding: "0.85rem 1rem",
+              display: "flex",
+              flexDirection: "column",
+              gap: "0.3rem",
+              overflow: "hidden",
+              // last card spans 2 cols to fill the row
+              ...(i === 6 ? { gridColumn: "2 / 4" } : {}),
             }}
-            initial={{ opacity: 0, y: 15 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 * (index + 1) }}
+            transition={{ duration: 0.45, delay: 0.08 * i }}
           >
             <h3
-              className="font-[family-name:var(--font-playfair)] text-lg font-bold"
-              style={{ color: "#4CAF50" }}
+              style={{
+                fontFamily: "var(--font-playfair)",
+                fontSize: "0.9rem",
+                fontWeight: 700,
+                color: "#4CAF50",
+                lineHeight: 1.2,
+              }}
             >
               {flag.pattern}
             </h3>
             <p
-              className="font-[family-name:var(--font-dm-sans)] text-sm leading-relaxed"
-              style={{ color: theme.text }}
+              style={{
+                fontFamily: "var(--font-dm-sans)",
+                fontSize: "0.7rem",
+                lineHeight: 1.45,
+                color: theme.text,
+                opacity: 0.85,
+              }}
             >
               {flag.description}
             </p>
             <p
-              className="font-[family-name:var(--font-dm-sans)] text-xs italic leading-relaxed opacity-70 mt-1"
-              style={{ color: theme.accent }}
+              style={{
+                fontFamily: "var(--font-dm-sans)",
+                fontSize: "0.65rem",
+                fontStyle: "italic",
+                lineHeight: 1.4,
+                color: theme.accent,
+                opacity: 0.65,
+                marginTop: "auto",
+              }}
             >
               &ldquo;{flag.evidence}&rdquo;
             </p>
